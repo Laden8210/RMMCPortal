@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/teacher_class"
+        android:icon="@drawable/baseline_class_24"
+        android:title="Classes"/>
+
+    <item
+        android:id="@+id/teacher_setting"
+        android:icon="@drawable/baseline_person_4_24"
+        android:title="Setting"/>
+
+</menu>

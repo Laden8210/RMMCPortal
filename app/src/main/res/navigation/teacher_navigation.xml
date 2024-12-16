@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/teacher_navigation"
+    app:startDestination="@id/teacher_class">
+
+
+    <fragment
+        android:id="@+id/teacher_setting"
+        android:name="com.example.rmmcportal.fragment.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/teacher_class"
+        android:name="com.example.rmmcportal.fragment.TeacherFragment"
+        android:label="fragment_teacher"
+        tools:layout="@layout/fragment_teacher" />
+</navigation>

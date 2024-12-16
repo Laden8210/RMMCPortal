@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/schedule_item_background"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/tvTimeDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8:00 AM - 10:00 AM | Monday"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Room 101"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif" />
+</LinearLayout>

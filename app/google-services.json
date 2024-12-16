@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1000130795945",
+    "project_id": "ramon-magsaysay-student-portal",
+    "storage_bucket": "ramon-magsaysay-student-portal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000130795945:android:645d8cc45003bc86438cb8",
+        "android_client_info": {
+          "package_name": "com.example.ramonmagsaysaystudentportal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfrKm3JhgdPyUuD69_uofzFSbFf5lwBKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000130795945:android:2aadb374c3b3bc7e438cb8",
+        "android_client_info": {
+          "package_name": "com.example.rmmcportal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfrKm3JhgdPyUuD69_uofzFSbFf5lwBKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
