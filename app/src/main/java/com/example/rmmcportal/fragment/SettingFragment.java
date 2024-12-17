@@ -12,6 +12,7 @@ import android.widget.Button;
 
 import com.example.rmmcportal.MainActivity;
 import com.example.rmmcportal.R;
+import com.example.rmmcportal.util.SessionManager;
 
 public class SettingFragment extends Fragment {
 
@@ -35,6 +36,9 @@ public class SettingFragment extends Fragment {
         btnLogout = view.findViewById(R.id.btnLogout);
         btnLogout.setOnClickListener(e ->{
             startActivity(new Intent(getActivity(), MainActivity.class));
+
+            SessionManager.getInstance(getActivity()).clearSession();
+
             getActivity().finish();
         });
         return view;
