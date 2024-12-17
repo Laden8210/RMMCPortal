@@ -49,6 +49,14 @@ public class MainActivity extends AppCompatActivity implements FirestoreCallback
 
         UserAccount userAccount =SessionManager.getInstance(this).getUserAccount();
 
+        if (userAccount == null) {
+            return;
+        }
+
+        if (userAccount.getUserType() == null) {
+            return;
+        }
+
         if (userAccount.getUserType().equals("student")) {
             startActivity(new Intent(this, StudentHeroActivity.class));
             finish();
